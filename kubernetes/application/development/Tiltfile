@@ -4,4 +4,4 @@ include('../../../../order-service/Tiltfile')
 include('../../../../catalog-service/Tiltfile')
 include('../../../../dispatcher-service/Tiltfile')
 
-update_settings(max_parallel_updates=1)
+update_settings(max_parallel_updates=2)
